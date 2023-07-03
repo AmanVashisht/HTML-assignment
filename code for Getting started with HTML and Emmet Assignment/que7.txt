@@ -1,0 +1,22 @@
+7. Explain in brief about the nesting operators in emmet.
+
+Answer:
+Nesting operators in Emmet are used to position abbreviation elements inside generated tree. They are used to define the relationship between elements in the generated code.
+
+
+There are four nesting operators in Emmet:
+
+> (Child): This operator is used to nest elements inside each other. 
+For example, the abbreviation div>ul>li will generate an HTML div element with an ul element inside, which in turn contains a li element.
+
+
++ (Sibling): This operator is used to place elements near each other, on the same level. 
+For example, the abbreviation div+p+bq will generate an HTML div element, a p element, and a bq element, all on the same level.
+
+
+^ (Climb-up): This operator is used to climb one level up the generated tree and place the element in that position. 
+For example, the abbreviation div+div>p>span+em^ will generate an HTML div element, a div element, a p element, a span element, and an em element, with the em element placed one level up from the span element.
+
+
+() (Grouping): This operator is used to group subtrees in complex abbreviations.
+For example, the abbreviation (div>ul>li)+(div>p+bq) will generate an HTML div element with two subtrees: the first subtree is an ul element with a li element inside, and the second subtree is a div element with a p element and a bq element inside

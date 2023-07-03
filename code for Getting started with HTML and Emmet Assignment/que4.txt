@@ -1,0 +1,8 @@
+4. List out any 3 tags we learned in this module and give a brief explanation about the tags.
+
+Answer:
+<h1> tag: This tag defines a heading element. Heading elements are used to create different levels of headings on a web page. The <h1> tag is the largest heading, followed by <h2>, <h3>, and so on.
+
+<p> tag: This tag defines a paragraph element. Paragraph elements are used to create paragraphs of text on a web page.
+
+<img> tag: This tag defines an image element. Image elements are used to display images on a web page. The <img> tag has an attribute called src which specifies the path to the image that is to be displayed.

@@ -1,0 +1,14 @@
+10. What are global attributes? List any 5 global attributes ?
+
+Answer:
+Global attributes are attributes that can be used with all HTML elements. They are used to control the behavior of an HTML element, or to provide additional information about the element.
+
+5 global attributes are
+
+accesskey : This attribute specifies a keyboard shortcut for the element.
+class     : This attribute specifies one or more CSS classes for the element.
+style     : This attribute specifies the style for the element.
+title     : This attribute specifies a title for the element.
+data      : This attribute is used to store custom data for the element.
+
+
